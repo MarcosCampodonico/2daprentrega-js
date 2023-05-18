@@ -32,3 +32,49 @@ for(i=0;i<5;i++){
         alert(item.etapa)
     }
 }*/
+
+
+
+
+
+/*function precio(x){//funcion con un parametro, que una vez aplicado ese parametro me puede returnar otra funcion
+    if(x === "producto nacional"){
+        return(a,b)=> a - b
+    }
+    if(x ==="producto importado"){
+        return(a,b)=>a + b
+    }
+
+}
+let productoNacional = precio("producto nacional")
+console.log(productoNacional(1000,200))
+let productoImportado = precio("producto importado")
+console.log(productoImportado(1000,200))*/
+
+// recorrida de arreglos con metodos avanzados
+const productos = [
+    {id: 1, nombre: "tabla", precio: 2000},
+    {id: 2, nombre: "traje", precio: 1400},
+    {id: 3, nombre: "killa", precio: 1600},
+    {id: 4, nombre: "pita",  precio: 1800},
+]
+
+/*productos.forEach(item=>{
+    alert(item.id)
+    alert(item.nombre)
+    alert(item.precio)
+})*/
+
+/*const encontrar = productos.find(item => item.nombre==="tabla")
+console.log(encontrar)*/
+
+//ahora vamos a simular que estamos en la etapa del hot sale y por ende vamos a modificar el arreglo.
+/*const hotSale = productos.map(item =>{
+    return{
+        id: item.id,
+        nombre: item.nombre + "hotsale",
+        precio: item.precio * 0.80
+    }
+})
+console.log(hotSale)*/
+
