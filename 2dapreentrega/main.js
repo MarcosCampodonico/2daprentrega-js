@@ -1,4 +1,3 @@
-
 //este va a ser el arreglo que se va a utilizar como base.
 const productos = [
     {id: 1, nombre: "tabla", precio: 2000},
